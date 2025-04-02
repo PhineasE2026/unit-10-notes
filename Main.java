@@ -3,7 +3,7 @@ public class Main {
    public static void main(String []args) {
       System.out.println("Methods that are recursive");
       // neverEnd(); causes stack overflow error
-      System.out.println(factorial(25));
+      System.out.println(factorial(16));
    }
 
    // methods that are recursive call themselves (to repeat code)
